@@ -1,0 +1,92 @@
+#encabezado{
+	height: 225px ;
+	width: auto;
+	  background-color:black;
+}
+#logo{
+	height:150px ;
+	width:150px ;
+	margin: 0px;
+}
+#tiramenu{
+	background-color:#F97100;
+	padding: 0px;
+}
+body{
+	background-color: black;
+}
+ul ul{
+	display:none; 
+}
+ul li:hover>ul{
+display:block;
+}
+ul li{
+	float:left;
+}
+ul{
+	background-color:#F97100;
+    padding:0 20px;
+	list-style:none;
+	position:relative;
+	display:inline-table;
+	margin: 0px;
+}
+ul li:hover a{
+	background:#FFC457;
+	}
+ul li a{
+	display:block;
+	padding:25px 40px;
+	color:#ffffff;
+	text-decoration:none;
+}
+ul ul {
+	background:#539BFF;
+	padding:0;
+	position:absolute;
+	top:100%;
+	
+}
+ul ul li{
+	float:none;
+	border-top:1px solid #539BFF;
+	border-bottom:1px solid #539BFF;
+	position:relative;
+	
+}
+ul ul li a{
+	padding:15px 40px;
+	color:#fff;
+}
+ul ul ul {
+	position:absolute;
+	left:100%;
+	top:0%;
+	}
+#cuerpo{
+	background-color:#BFBFBF;
+	width:auto;
+	height:auto; 
+	margin-top:1px;
+	padding: 100px;
+}
+#producto{
+	width:280px;
+	height:auto;
+	margin-right: 10px;
+	margin-left: 50px;
+	margin-top: 100px;
+	display: inline-block; 
+	background-color: white;
+	box-shadow: 0 8px 10px #8DEBFF;
+	border:2px solid black;
+}
+div div img{
+	width: 250px;
+	height: 200px;
+	border:1px solid black;
+}
+#texto{
+	height: 30px;
+}
